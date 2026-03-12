@@ -8,7 +8,7 @@ const mustWatch: {
     title: "General Magic",
     type: "documentary",
     href: "https://www.imdb.com/title/tt6849786",
-    note: "",
+    note: "The untold story of the most important company to ever come out of Silicon Valley — and why you've never heard of it.",
   },
 ];
 
