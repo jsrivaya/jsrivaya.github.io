@@ -1,4 +1,4 @@
-export default function Links() {
+export default function Resume() {
   return (
     <div>
       <h1
@@ -11,7 +11,7 @@ export default function Links() {
           textTransform: "uppercase",
         }}
       >
-        Links
+        Resume
       </h1>
       <p style={{ fontSize: "14px", color: "#ccc" }}>Coming soon.</p>
     </div>
