@@ -5,6 +5,12 @@ const mustWatch: {
   note?: string;
 }[] = [
   {
+    title: "Deep Learning for Computer Vision",
+    type: "lecture",
+    href: "https://www.youtube.com/watch?v=u6aEYuemt0M",
+    note: "",
+  },
+  {
     title: "General Magic",
     type: "documentary",
     href: "https://www.imdb.com/title/tt6849786",
