@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Aged cream background -->
+  <rect width="400" height="500" fill="#f0e8d8"/>
+
+  <!-- Brick red irregular form, dominant -->
+  <path d="M30 60 C80 30 200 45 220 120 C242 200 210 300 180 370 C150 440 70 460 30 410 C-10 360 5 260 15 180 C22 120 -5 85 30 60Z" fill="#b8391e"/>
+
+  <!-- Dusty blue rectangle, overlapping right -->
+  <rect x="200" y="80" width="170" height="220" fill="#2e5280"/>
+
+  <!-- Ochre horizontal band, bottom -->
+  <rect x="0" y="400" width="400" height="80" fill="#c8920a"/>
+
+  <!-- Warm black square top right -->
+  <rect x="320" y="20" width="60" height="60" fill="#1e1c18"/>
+</svg>

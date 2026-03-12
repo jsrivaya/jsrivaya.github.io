@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Warm ochre background -->
+  <rect width="400" height="500" fill="#c8920a"/>
+
+  <!-- Warm black tall rectangle, left anchor -->
+  <rect x="20" y="30" width="110" height="380" fill="#1e1c18"/>
+
+  <!-- Brick red organic blob, centre-right -->
+  <path d="M180 80 C230 50 330 75 350 155 C372 240 340 330 295 365 C248 400 185 380 165 315 C143 245 140 105 180 80Z" fill="#b8391e"/>
+
+  <!-- Dusty blue small square, bottom left -->
+  <rect x="20" y="430" width="80" height="55" fill="#2e5280"/>
+
+  <!-- Cream thin strip across middle -->
+  <rect x="130" y="235" width="250" height="14" fill="#f0e8d8"/>
+</svg>

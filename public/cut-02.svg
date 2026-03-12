@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Faded navy background -->
+  <rect width="400" height="500" fill="#2e5280"/>
+
+  <!-- Golden ochre organic leaf, centre-left -->
+  <path d="M60 100 C100 60 200 80 220 160 C240 240 200 340 160 380 C120 420 60 400 45 340 C28 275 30 195 60 100Z" fill="#c8920a"/>
+
+  <!-- Brick red cut shape, right side -->
+  <path d="M240 180 C275 150 360 170 370 240 C382 315 340 390 295 400 C248 412 215 365 220 305 C225 248 212 205 240 180Z" fill="#b8391e"/>
+
+  <!-- Cream small rectangle accent -->
+  <rect x="30" y="420" width="90" height="55" fill="#f0e8d8"/>
+</svg>

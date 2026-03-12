@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 620" width="1160" height="620">
+  <rect width="1160" height="620" fill="#e8e8ec"/>
+
+  <!-- Left: teal outer rectangle -->
+  <rect x="60" y="40" width="440" height="545" fill="#2d8a7a"/>
+
+  <!-- Left: dark inner rectangle (offset/cut) -->
+  <rect x="100" y="80" width="360" height="460" fill="#0d2e2a"/>
+
+  <!-- Right composition: dark navy backing -->
+  <rect x="680" y="28" width="390" height="560" fill="#1a1f2e"/>
+
+  <!-- Right: pink layer -->
+  <rect x="700" y="38" width="340" height="420" fill="#e8a0b8"/>
+
+  <!-- Right: white/cream card -->
+  <rect x="710" y="120" width="310" height="380" fill="#f5f0e8"/>
+
+  <!-- Right: red heart (Matisse-style, hand-cut feel) -->
+  <path d="M865 270 C865 270 800 220 790 260 C780 295 820 330 865 375 C910 330 950 295 940 260 C930 220 865 270 865 270Z" fill="#cc2a1a"/>
+
+</svg>
