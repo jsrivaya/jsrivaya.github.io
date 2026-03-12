@@ -1,3 +1,17 @@
+const mustRead: {
+  title: string;
+  source: string;
+  href: string;
+  note?: string;
+}[] = [
+  {
+    title: "The 18 Mistakes That Kill Startups",
+    source: "Paul Graham",
+    href: "https://www.paulgraham.com/startupmistakes.html",
+    note: "",
+  },
+];
+
 const mustWatch: {
   title: string;
   type: string;
@@ -33,6 +47,26 @@ export default function Links() {
       >
         Links
       </h1>
+
+      {/* Must Read */}
+      <div style={{ marginBottom: "40px" }}>
+        <p style={{ fontSize: "12px", color: "#bbb", marginBottom: "14px", letterSpacing: "0.05em", textTransform: "uppercase" }}>
+          Must Read
+        </p>
+        <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+          {mustRead.map(({ title, source, href, note }) => (
+            <li key={title} style={{ paddingBottom: "16px", borderBottom: "1px solid #f0f0f0", marginBottom: "16px" }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "16px" }}>
+                <a href={href} target="_blank" rel="noopener noreferrer" className="entry-link" style={{ fontSize: "15px", color: "#1a1a1a" }}>
+                  {title}
+                </a>
+                <span style={{ fontSize: "12px", color: "#bbb", whiteSpace: "nowrap", flexShrink: 0 }}>{source}</span>
+              </div>
+              {note && <p style={{ fontSize: "13px", color: "#777", marginTop: "6px", lineHeight: 1.6 }}>{note}</p>}
+            </li>
+          ))}
+        </ul>
+      </div>
 
       {/* Must Watch */}
       <div style={{ marginBottom: "40px" }}>
