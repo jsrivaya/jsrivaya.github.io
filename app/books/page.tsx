@@ -117,7 +117,7 @@ const groups = [
       {
         title: "A gyertyák csonkig égnek (Embers)",
         author: "Sándor Márai",
-        href: "https://www.goodreads.com/book/show/4637.Embers",
+        href: "https://www.goodreads.com/book/show/783505.Embers",
         lesson: "",
       },
       {
