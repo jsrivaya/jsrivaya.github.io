@@ -39,7 +39,7 @@ export default function About() {
 
         <div style={{ marginTop: "8px" }}>
           <p style={{ fontSize: "12px", color: "#bbb", letterSpacing: "0.05em", textTransform: "uppercase", marginBottom: "12px" }}>
-            Believes
+            Believe
           </p>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "8px" }}>
             {[
