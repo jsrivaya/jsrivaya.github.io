@@ -7,7 +7,7 @@ const mustWatch: {
   {
     title: "General Magic",
     type: "documentary",
-    href: "https://www.youtube.com/watch?v=uTdyb-RWNKo",
+    href: "https://www.imdb.com/title/tt6849786",
     note: "",
   },
 ];
