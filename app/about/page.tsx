@@ -36,10 +36,6 @@ export default function About() {
           and act in the physical world sits at the intersection of everything I find
           compelling about engineering.
         </p>
-        <p>
-          I ski patrol at Palisades Tahoe, mentor high school students, and spend time
-          outdoors on a bike or in the mountains.
-        </p>
 
         <div style={{ marginTop: "8px" }}>
           <p style={{ fontSize: "12px", color: "#bbb", letterSpacing: "0.05em", textTransform: "uppercase", marginBottom: "12px" }}>
@@ -58,6 +54,11 @@ export default function About() {
             ))}
           </ul>
         </div>
+
+        <p>
+          I ski patrol at Palisades Tahoe, mentor high school students, and spend time
+          outdoors on a bike or in the mountains.
+        </p>
 
         <p style={{ fontSize: "13px", color: "#aaa" }}>
           <a
