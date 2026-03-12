@@ -10,6 +10,7 @@ const navLinks = [
   { href: "/links", label: "links", coming: true },
   { href: "/press", label: "press" },
   { href: "/about", label: "about" },
+  { href: "/resume", label: "resume", coming: true },
 ];
 
 export default function Sidebar() {
