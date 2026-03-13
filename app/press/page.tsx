@@ -56,6 +56,10 @@ export default function Press() {
         Press
       </h1>
 
+      <p style={{ fontSize: "14px", color: "#777", marginBottom: "40px", lineHeight: 1.65 }}>
+        A few times I ended up in print.
+      </p>
+
       {press.map(({ year, items }) => (
         <div key={year} style={{ marginBottom: "36px" }}>
           <p

@@ -48,6 +48,10 @@ export default function Links() {
         Links
       </h1>
 
+      <p style={{ fontSize: "14px", color: "#777", marginBottom: "40px", lineHeight: 1.65 }}>
+        Things I&apos;ve found worth reading, watching, or listening to.
+      </p>
+
       {/* Must Read */}
       <div style={{ marginBottom: "40px" }}>
         <p style={{ fontSize: "12px", color: "#bbb", marginBottom: "14px", letterSpacing: "0.05em", textTransform: "uppercase" }}>
