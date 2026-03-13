@@ -66,7 +66,7 @@ export default function Photos() {
 
       {/* Intro note */}
       <p style={{ fontSize: "14px", color: "#777", marginBottom: "32px", lineHeight: 1.65, maxWidth: "600px" }}>
-        I liked capturing moments in photos since I was a kid. Here are some I like the most. Some shot with old digital compact cameras — like the Casio Exilim EX-Z4 or the Canon EOS 50D — or just whatever phone I had in hand. Currently shooting with a Sony a7C II with the FE 40mm F2.5 G.
+        I liked capturing moments in photos since I was a kid. Here are some I like the most. Some shot with old digital compact cameras like the Casio Exilim EX-Z4, a Canon EOS 50D DSLR, or just whatever phone I had in hand. Currently shooting with a Sony a7C II with the FE 40mm F2.5 G.
       </p>
 
       {/* Image */}
