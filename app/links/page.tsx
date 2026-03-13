@@ -52,10 +52,10 @@ export default function Links() {
         Things I&apos;ve found worth reading, watching, or listening to.
       </p>
 
-      {/* Must Read */}
+      {/* Worth Reading */}
       <div style={{ marginBottom: "40px" }}>
         <p style={{ fontSize: "12px", color: "#bbb", marginBottom: "14px", letterSpacing: "0.05em", textTransform: "uppercase" }}>
-          Must Read
+          Worth Reading
         </p>
         <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
           {mustRead.map(({ title, source, href, note }) => (
@@ -72,10 +72,10 @@ export default function Links() {
         </ul>
       </div>
 
-      {/* Must Watch */}
+      {/* Worth Watching */}
       <div style={{ marginBottom: "40px" }}>
         <p style={{ fontSize: "12px", color: "#bbb", marginBottom: "14px", letterSpacing: "0.05em", textTransform: "uppercase" }}>
-          Must Watch
+          Worth Watching
         </p>
         <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
           {mustWatch.map(({ title, type, href, note }) => (
