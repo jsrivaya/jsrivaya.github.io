@@ -12,6 +12,20 @@ const mustRead: {
   },
 ];
 
+const worthListening: {
+  title: string;
+  type: string;
+  href: string;
+  note?: string;
+}[] = [
+  {
+    title: "Head of Claude Code: What happens after coding is solved",
+    type: "interview",
+    href: "https://www.youtube.com/watch?v=We7BZVKbCVw",
+    note: "Boris Cherny is the creator and head of Claude Code at Anthropic. What began as a simple terminal-based prototype just a year ago has transformed the role of software engineering and is increasingly transforming all professional work.",
+  },
+];
+
 const mustWatch: {
   title: string;
   type: string;
@@ -65,6 +79,26 @@ export default function Links() {
                   {title}
                 </a>
                 <span style={{ fontSize: "12px", color: "#bbb", whiteSpace: "nowrap", flexShrink: 0 }}>{source}</span>
+              </div>
+              {note && <p style={{ fontSize: "13px", color: "#777", marginTop: "6px", lineHeight: 1.6 }}>{note}</p>}
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      {/* Worth Listening */}
+      <div style={{ marginBottom: "40px" }}>
+        <p style={{ fontSize: "12px", color: "#bbb", marginBottom: "14px", letterSpacing: "0.05em", textTransform: "uppercase" }}>
+          Worth Listening
+        </p>
+        <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+          {worthListening.map(({ title, type, href, note }) => (
+            <li key={title} style={{ paddingBottom: "16px", borderBottom: "1px solid #f0f0f0", marginBottom: "16px" }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "16px" }}>
+                <a href={href} target="_blank" rel="noopener noreferrer" className="entry-link" style={{ fontSize: "15px", color: "#1a1a1a" }}>
+                  {title}
+                </a>
+                <span style={{ fontSize: "12px", color: "#bbb", whiteSpace: "nowrap", flexShrink: 0 }}>{type}</span>
               </div>
               {note && <p style={{ fontSize: "13px", color: "#777", marginTop: "6px", lineHeight: 1.6 }}>{note}</p>}
             </li>
