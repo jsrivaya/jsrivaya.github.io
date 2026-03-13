@@ -60,18 +60,6 @@ export default function About() {
           outdoors on a bike or in the mountains.
         </p>
 
-        <p style={{ fontSize: "13px", color: "#aaa" }}>
-          <a
-            href="https://www.linkedin.com/in/jsrivaya/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="entry-link"
-            style={{ color: "#aaa" }}
-          >
-            LinkedIn
-          </a>
-        </p>
-
         <blockquote
           style={{
             margin: "8px 0 0 0",
