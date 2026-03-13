@@ -32,7 +32,7 @@ export default function Projects() {
       </h1>
 
       <p style={{ fontSize: "14px", color: "#777", marginBottom: "40px", lineHeight: 1.65 }}>
-        Some projects I am working on or have worked on in the past.
+        A mix of personal projects, experiments, and things I've built.
       </p>
 
       {projects.length === 0 ? (
