@@ -175,6 +175,10 @@ export default function Books() {
         Books I recommend
       </h1>
 
+      <p style={{ fontSize: "14px", color: "#777", marginBottom: "40px", lineHeight: 1.65 }}>
+        Books I've read and would recommend — some for the ideas, some just for the pleasure of reading them.
+      </p>
+
       {/* Currently reading */}
       <div style={{ marginBottom: "48px" }}>
         <p
