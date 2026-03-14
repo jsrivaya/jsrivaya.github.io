@@ -8,7 +8,7 @@ const mustRead: {
     title: "The 18 Mistakes That Kill Startups",
     source: "Paul Graham",
     href: "https://www.paulgraham.com/startupmistakes.html",
-    note: "",
+    note: "Paul Graham distills why most startups fail into 18 root causes — from single founders and bad location to slow launches and not wanting to get your hands dirty. Most mistakes trace back to one thing: not making something people want.",
   },
 ];
 
