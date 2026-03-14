@@ -54,7 +54,7 @@ const mustWatch: {
     title: "Taking on the Challenge — Jeff Bezos, Amazon",
     type: "talk",
     href: "https://www.youtube.com/watch?v=WhnDvvNS8zQ",
-    note: "",
+    note: "Bezos on the decisions that built Amazon — why long-term thinking, customer obsession, and a willingness to be misunderstood are the foundations of any durable company.",
   },
   {
     title: "Steve Jobs' 2005 Stanford Commencement Address",
