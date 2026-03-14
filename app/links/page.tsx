@@ -50,6 +50,12 @@ const mustWatch: {
     href: "https://www.youtube.com/watch?v=WhnDvvNS8zQ",
     note: "",
   },
+  {
+    title: "Steve Jobs' 2005 Stanford Commencement Address",
+    type: "talk",
+    href: "https://www.youtube.com/watch?v=UF8uR6Z6KLc",
+    note: "\"Stay hungry, stay foolish.\" Three stories about connecting the dots, love and loss, and death — 15 minutes that hold up.",
+  },
 ];
 
 export default function Links() {
