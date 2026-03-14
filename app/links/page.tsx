@@ -45,7 +45,7 @@ const mustWatch: {
     note: "The untold story of the most important company to ever come out of Silicon Valley — and why you've never heard of it.",
   },
   {
-    title: "2005 Entrepreneurship Conference: Taking on the Challenge — Jeff Bezos, Amazon",
+    title: "Taking on the Challenge — Jeff Bezos, Amazon",
     type: "talk",
     href: "https://www.youtube.com/watch?v=WhnDvvNS8zQ",
     note: "",
