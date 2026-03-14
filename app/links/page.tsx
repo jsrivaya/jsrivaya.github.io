@@ -27,7 +27,7 @@ const worthListening: {
   {
     title: "This Is Water — David Foster Wallace, Kenyon Commencement 2005",
     type: "speech",
-    href: "https://www.youtube.com/watch?v=8CrOL-ydFMI",
+    href: "https://fs.blog/david-foster-wallace-this-is-water/",
     note: "On the value of a liberal arts education, the default setting of the human mind, and why conscious attention is the hardest — and most important — thing.",
   },
 ];
