@@ -8,7 +8,7 @@ const mustRead: {
     title: "The 18 Mistakes That Kill Startups",
     source: "Paul Graham",
     href: "https://www.paulgraham.com/startupmistakes.html",
-    note: "",
+    note: "Paul Graham on the 18 root causes that kill startups — most trace back to one thing: not making something people want.",
   },
 ];
 
