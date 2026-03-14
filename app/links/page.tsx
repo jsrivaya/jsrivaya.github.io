@@ -24,6 +24,12 @@ const worthListening: {
     href: "https://www.youtube.com/watch?v=We7BZVKbCVw",
     note: "Boris Cherny is the creator and head of Claude Code at Anthropic. What began as a simple terminal-based prototype just a year ago has transformed the role of software engineering and is increasingly transforming all professional work.",
   },
+  {
+    title: "This Is Water — David Foster Wallace, Kenyon Commencement 2005",
+    type: "speech",
+    href: "https://www.youtube.com/watch?v=8CrOL-ydFMI",
+    note: "On the value of a liberal arts education, the default setting of the human mind, and why conscious attention is the hardest — and most important — thing.",
+  },
 ];
 
 const mustWatch: {
@@ -45,7 +51,7 @@ const mustWatch: {
     note: "The untold story of the most important company to ever come out of Silicon Valley — and why you've never heard of it.",
   },
   {
-    title: "2005 Entrepreneurship Conference: Taking on the Challenge — Jeff Bezos, Amazon",
+    title: "Taking on the Challenge — Jeff Bezos, Amazon",
     type: "talk",
     href: "https://www.youtube.com/watch?v=WhnDvvNS8zQ",
     note: "",
