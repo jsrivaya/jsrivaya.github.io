@@ -42,7 +42,7 @@ const mustWatch: {
     title: "Deep Learning for Computer Vision",
     type: "lecture",
     href: "https://www.youtube.com/watch?v=u6aEYuemt0M",
-    note: "",
+    note: "The foundational ideas behind how machines see — CNNs, backprop, and the architecture decisions that made modern computer vision possible. Dense, but worth every minute.",
   },
   {
     title: "General Magic",
