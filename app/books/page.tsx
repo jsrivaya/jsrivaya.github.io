@@ -1,10 +1,5 @@
 const currentlyReading = [
   {
-    title: "Build",
-    author: "Tony Fadell",
-    href: "https://www.goodreads.com/book/show/59696349-build",
-  },
-  {
     title: "Vibe Coding",
     author: "Gene Kim",
     href: "https://www.goodreads.com/book/show/228438060-vibe-coding",
