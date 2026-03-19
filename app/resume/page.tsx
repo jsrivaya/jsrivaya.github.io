@@ -249,9 +249,8 @@ export default function Resume() {
               </div>
               <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "6px" }}>
                 {job.bullets.map((b) => (
-                  <li key={b} style={{ fontSize: "14px", color: "#555", paddingLeft: "12px", lineHeight: 1.65, display: "flex", gap: "8px" }}>
-                    <span style={{ color: "#ccc", flexShrink: 0 }}>–</span>
-                    <span>{b}</span>
+                  <li key={b} style={{ fontSize: "14px", color: "#555", lineHeight: 1.65 }}>
+                    {b}
                   </li>
                 ))}
               </ul>
