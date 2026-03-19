@@ -197,10 +197,8 @@ export default function Resume() {
       {/* Header */}
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: "40px", gap: "16px" }}>
         <p style={{ fontSize: "22px", color: "#1a1a1a" }}>Jorge Suárez-Rivaya</p>
-        <p style={{ fontSize: "13px", color: "#aaa", whiteSpace: "nowrap" }}>
+        <p style={{ fontSize: "13px", color: "#aaa" }}>
           <a href="https://www.linkedin.com/in/jsrivaya/" target="_blank" rel="noopener noreferrer" className="entry-link" style={{ color: "#aaa" }}>linkedin.com/in/jsrivaya</a>
-          <span style={{ margin: "0 8px", color: "#ddd" }}>|</span>
-          <a href="https://jsrivaya.github.io/" target="_blank" rel="noopener noreferrer" className="entry-link" style={{ color: "#aaa" }}>jsrivaya.github.io</a>
         </p>
       </div>
 
