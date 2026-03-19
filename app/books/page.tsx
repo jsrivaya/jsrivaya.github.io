@@ -64,12 +64,6 @@ const groups = [
         lesson: "",
       },
       {
-        title: "Never Eat Alone",
-        author: "Keith Ferrazzi",
-        href: "https://www.goodreads.com/book/show/84699.Never_Eat_Alone",
-        lesson: "",
-      },
-      {
         title: "Winners Take All",
         author: "Tony Seba",
         href: "https://www.goodreads.com/book/show/2609132-winners-take-all---the-9-fundamental-rules-of-high-tech-strategy",
