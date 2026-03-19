@@ -210,7 +210,7 @@ export default function Resume() {
         <p style={label}>Technical Skills</p>
         <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
           {skills.map(({ label: l, value }) => (
-            <div key={l} style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
+            <div key={l} style={{ display: "flex", gap: "16px" }}>
               <span style={{ fontSize: "13px", color: "#aaa", minWidth: "170px", flexShrink: 0 }}>{l}</span>
               <span style={{ fontSize: "13px", color: "#555" }}>{value}</span>
             </div>
