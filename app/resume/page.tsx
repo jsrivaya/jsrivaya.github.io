@@ -243,9 +243,9 @@ export default function Resume() {
             >
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "16px", flexWrap: "wrap", marginBottom: "10px" }}>
                 <span style={{ fontSize: "14px", color: "#1a1a1a" }}>
-                  {job.role}, <span style={{ color: "#aaa" }}>{job.company}, {job.location}</span>
+                  {job.role}, <span style={{ color: "#aaa" }}>{job.company}, {job.location}</span> <span style={{ color: "#ddd" }}>|</span>
                 </span>
-                <span style={{ fontSize: "12px", color: "#bbb", whiteSpace: "nowrap" }}>| {job.period}</span>
+                <span style={{ fontSize: "12px", color: "#bbb", whiteSpace: "nowrap" }}>{job.period}</span>
               </div>
               <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "6px" }}>
                 {job.bullets.map((b) => (
