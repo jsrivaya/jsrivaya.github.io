@@ -195,7 +195,7 @@ export default function Resume() {
       </h1>
 
       {/* Header */}
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: "40px", gap: "16px" }}>
+      <div className="resume-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: "40px", gap: "16px" }}>
         <p style={{ fontSize: "22px", color: "#1a1a1a" }}>Jorge Suárez-Rivaya</p>
         <p style={{ fontSize: "13px", color: "#aaa", whiteSpace: "nowrap" }}>
           <a href="https://www.linkedin.com/in/jsrivaya/" target="_blank" rel="noopener noreferrer" className="entry-link" style={{ color: "#aaa" }}>linkedin.com/in/jsrivaya</a>
@@ -220,8 +220,8 @@ export default function Resume() {
         <p style={label}>Technical Skills</p>
         <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
           {skills.map(({ label: l, value }) => (
-            <div key={l} style={{ display: "flex", gap: "16px" }}>
-              <span style={{ fontSize: "13px", color: "#aaa", minWidth: "170px", flexShrink: 0 }}>{l}</span>
+            <div key={l} className="resume-skills-row" style={{ display: "flex", gap: "16px" }}>
+              <span className="resume-skill-label" style={{ fontSize: "13px", color: "#aaa", minWidth: "170px", flexShrink: 0 }}>{l}</span>
               <span style={{ fontSize: "13px", color: "#555" }}>{value}</span>
             </div>
           ))}
@@ -245,7 +245,7 @@ export default function Resume() {
                 <span style={{ fontSize: "14px", color: "#1a1a1a" }}>
                   {job.role}, <span style={{ color: "#aaa" }}>{job.company}, {job.location}</span>
                 </span>
-                <span style={{ fontSize: "12px", color: "#bbb", whiteSpace: "nowrap" }}>| {job.period}</span>
+                <span style={{ fontSize: "12px", color: "#bbb", whiteSpace: "nowrap" }}>{job.period}</span>
               </div>
               <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "6px" }}>
                 {job.bullets.map((b) => (
