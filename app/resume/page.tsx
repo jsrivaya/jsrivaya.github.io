@@ -305,11 +305,12 @@ export default function Resume() {
         <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
           {continuingEducation.map((e) => (
             <div key={e.institution}>
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "16px", flexWrap: "wrap", marginBottom: "4px" }}>
-                <span style={{ fontSize: "15px", color: "#1a1a1a" }}>{e.institution}</span>
-                <span style={{ fontSize: "12px", color: "#bbb" }}>{e.period}</span>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "16px", flexWrap: "wrap", marginBottom: "6px" }}>
+                <span style={{ fontSize: "14px", color: "#1a1a1a" }}>
+                  {e.institution}, <span style={{ color: "#aaa" }}>{e.location}</span> <span style={{ color: "#ddd" }}>|</span>
+                </span>
+                <span style={{ fontSize: "12px", color: "#bbb", whiteSpace: "nowrap" }}>{e.period}</span>
               </div>
-              <p style={{ fontSize: "13px", color: "#aaa", marginBottom: "6px" }}>{e.location}</p>
               <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "4px" }}>
                 {e.items.map((d) => (
                   <li key={d} style={{ fontSize: "14px", color: "#555" }}>{d}</li>
