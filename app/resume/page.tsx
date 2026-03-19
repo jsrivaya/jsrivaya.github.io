@@ -94,12 +94,12 @@ const experience = [
 ];
 
 const skills = [
-  { label: "Languages", value: "C/C++, Python — Learning: Rust" },
-  { label: "Middleware & Protocols", value: "DDS, gRPC, SOME/IP, CAN bus — Learning: Redis" },
+  { label: "Languages & Frameworks", value: "C/C++, Python; Learning: Rust" },
+  { label: "Middleware & Protocols", value: "DDS, gRPC, SOME/IP, CAN bus; Learning: Redis" },
   { label: "Methodologies", value: "Agile, SCRUM, Lean Engineering, TDD, Clean Code" },
-  { label: "Cloud & Containers", value: "AWS, Docker, OpenShift, Kubernetes" },
+  { label: "Cloud & Containerization", value: "AWS, Docker, OpenShift, Kubernetes (k8)" },
   { label: "Operating Systems", value: "Linux, Android (Runtime & Framework), Real-Time OS (Integrity, QNX)" },
-  { label: "Tools & Platforms", value: "GitHub Actions, Conan, JFrog Artifactory, Raspberry Pi, Coral TPU" },
+  { label: "Tools & Platforms", value: "DevOps, CI/CD through GitHub Actions, Conan, JFrog Artifactory, Raspberry Pi, Coral TPU" },
 ];
 
 const sideProjects = [
@@ -205,9 +205,22 @@ export default function Resume() {
         </p>
       </div>
 
+      {/* Skills */}
+      <div style={section}>
+        <p style={label}>Technical Skills</p>
+        <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
+          {skills.map(({ label: l, value }) => (
+            <div key={l} style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
+              <span style={{ fontSize: "13px", color: "#aaa", minWidth: "170px", flexShrink: 0 }}>{l}</span>
+              <span style={{ fontSize: "13px", color: "#555" }}>{value}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+
       {/* Experience */}
       <div style={section}>
-        <p style={label}>Experience</p>
+        <p style={label}>Work Experience</p>
         <div style={{ display: "flex", flexDirection: "column" }}>
           {experience.map((job, i) => (
             <div
@@ -231,19 +244,6 @@ export default function Resume() {
                   </li>
                 ))}
               </ul>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Skills */}
-      <div style={section}>
-        <p style={label}>Skills</p>
-        <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-          {skills.map(({ label: l, value }) => (
-            <div key={l} style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
-              <span style={{ fontSize: "13px", color: "#aaa", minWidth: "150px", flexShrink: 0 }}>{l}</span>
-              <span style={{ fontSize: "13px", color: "#555" }}>{value}</span>
             </div>
           ))}
         </div>
