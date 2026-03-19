@@ -3,14 +3,14 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const navLinks = [
+const navLinks: { href: string; label: string; coming?: true }[] = [
   { href: "/books", label: "books" },
   { href: "/projects", label: "projects" },
   { href: "/photos", label: "photos" },
   { href: "/links", label: "links" },
   { href: "/press", label: "press" },
   { href: "/about", label: "about" },
-  { href: "/resume", label: "resume", coming: true },
+  { href: "/resume", label: "resume" },
 ];
 
 export default function Sidebar() {
