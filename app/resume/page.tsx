@@ -236,16 +236,17 @@ export default function Resume() {
             <div
               key={job.role + job.company}
               style={{
-                paddingBottom: "28px",
-                marginBottom: "28px",
+                paddingBottom: i < experience.length - 1 ? "28px" : "0",
+                marginBottom: i < experience.length - 1 ? "28px" : "0",
                 borderBottom: i < experience.length - 1 ? "1px solid #f0f0f0" : "none",
               }}
             >
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "16px", flexWrap: "wrap", marginBottom: "2px" }}>
-                <span style={{ fontSize: "15px", color: "#1a1a1a" }}>{job.role}</span>
-                <span style={{ fontSize: "12px", color: "#bbb", whiteSpace: "nowrap" }}>{job.period}</span>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "16px", flexWrap: "wrap", marginBottom: "10px" }}>
+                <span style={{ fontSize: "14px", color: "#1a1a1a" }}>
+                  {job.role}, <span style={{ color: "#aaa" }}>{job.company}, {job.location}</span>
+                </span>
+                <span style={{ fontSize: "12px", color: "#bbb", whiteSpace: "nowrap" }}>| {job.period}</span>
               </div>
-              <p style={{ fontSize: "13px", color: "#aaa", marginBottom: "10px" }}>{job.company} — {job.location}</p>
               <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "6px" }}>
                 {job.bullets.map((b) => (
                   <li key={b} style={{ fontSize: "14px", color: "#555", paddingLeft: "12px", lineHeight: 1.65, display: "flex", gap: "8px" }}>
