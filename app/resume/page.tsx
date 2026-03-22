@@ -153,7 +153,7 @@ const certifications = [
   { name: "Introduction to Model Context Protocol", issuer: "Anthropic", date: "2026", href: "https://verify.skilljar.com/c/xjxnvv35ksco" },
   { name: "Introduction to Agent Skills", issuer: "Anthropic", date: "2026", href: "https://verify.skilljar.com/c/mf7zsgbhix2y" },
   { name: "Claude Code in Action", issuer: "Anthropic", date: "2026", href: "https://anthropic.skilljar.com/claude-code-in-action" },
-  { name: "Clean Code Green Belt (highest level)", issuer: "Ford Motor Company", date: "Feb 2024" },
+  { name: "Clean Code Green Belt (highest level)", issuer: "Ford Motor Company", date: "Feb 2024", href: "https://www.credly.com/badges/6361a712-0c10-4e48-bea2-e2bee4bae03b" },
   { name: "gRPC [Golang] Master Class", issuer: "Udemy", date: "Feb 2024" },
 ];
 
