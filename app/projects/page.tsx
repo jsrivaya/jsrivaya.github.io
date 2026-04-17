@@ -6,6 +6,14 @@ const projects: {
   tags: string[];
 }[] = [
   {
+    title: "AlpineOps",
+    description:
+      "The incident management system ski patrol actually wanted. Paperless incident reports from base to summit — offline-first, tablet-native, syncs when back in range. Built for the mountain, not the office.",
+    year: "2026",
+    url: "https://alpineops.app/",
+    tags: ["offline-first", "tablet-native", "ski patrol", "incident management"],
+  },
+  {
     title: "loon",
     description:
       "A lightweight, header-only C++ library designed for low memory footprint, low latency, and maximum performance. Provides optimized data structures that outperform standard STL counterparts while maintaining familiar interfaces. Built for HFT, gaming, embedded systems, and real-time processing.",
