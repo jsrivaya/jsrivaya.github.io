@@ -6,12 +6,28 @@ const projects: {
   tags: string[];
 }[] = [
   {
+    title: "AlpineOps",
+    description:
+      "The incident management system ski patrol actually wanted. Paperless incident reports from base to summit — offline-first, tablet-native, syncs when back in range. Built for the mountain, not the office.",
+    year: "2026",
+    url: "https://alpineops.app/",
+    tags: ["offline-first", "tablet-native", "ski patrol", "incident management"],
+  },
+  {
     title: "loon",
     description:
       "A lightweight, header-only C++ library designed for low memory footprint, low latency, and maximum performance. Provides optimized data structures that outperform standard STL counterparts while maintaining familiar interfaces. Built for HFT, gaming, embedded systems, and real-time processing.",
     year: "2026",
     url: "https://www.loonlib.dev",
     tags: ["C++", "header-only", "performance", "HFT", "embedded"],
+  },
+  {
+    title: "Build Your Own Claude Code",
+    description:
+      "Reimplementing Claude Code from the ground up — agent loop, tool use, and terminal UX. CodeCrafters challenge.",
+    year: "2026",
+    url: "https://app.codecrafters.io/courses/claude-code/overview",
+    tags: ["agents", "LLM", "CodeCrafters"],
   },
   {
     title: "Build Your Own Shell",
@@ -28,14 +44,6 @@ const projects: {
     year: "2025",
     url: "https://app.codecrafters.io/courses/redis/overview",
     tags: ["C/C++", "networking", "CodeCrafters"],
-  },
-  {
-    title: "Build Your Own Claude Code",
-    description:
-      "Reimplementing Claude Code from the ground up — agent loop, tool use, and terminal UX. CodeCrafters challenge.",
-    year: "2026",
-    url: "https://app.codecrafters.io/courses/claude-code/overview",
-    tags: ["agents", "LLM", "CodeCrafters"],
   },
 ];
 
