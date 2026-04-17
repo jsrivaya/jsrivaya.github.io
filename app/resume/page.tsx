@@ -150,15 +150,17 @@ const continuingEducation = [
 ];
 
 const certifications = [
-  { name: "Claude Code in Action", issuer: "Anthropic", date: "2026" },
-  { name: "Clean Code Green Belt (highest level)", issuer: "Ford Motor Company", date: "Feb 2024" },
+  { name: "Introduction to Model Context Protocol", issuer: "Anthropic", date: "2026", href: "https://verify.skilljar.com/c/xjxnvv35ksco" },
+  { name: "Introduction to Agent Skills", issuer: "Anthropic", date: "2026", href: "https://verify.skilljar.com/c/mf7zsgbhix2y" },
+  { name: "Claude Code in Action", issuer: "Anthropic", date: "2026", href: "https://anthropic.skilljar.com/claude-code-in-action" },
+  { name: "Clean Code Green Belt (highest level)", issuer: "Ford Motor Company", date: "Feb 2024", href: "https://www.credly.com/badges/6361a712-0c10-4e48-bea2-e2bee4bae03b" },
   { name: "gRPC [Golang] Master Class", issuer: "Udemy", date: "Feb 2024" },
 ];
 
 const patents = [
-  { id: "US10933994B2", title: "System and methods for delivering a package from a drone to a vehicle" },
-  { id: "DE102019110429A1", title: "Control of airbag activation status on a motor vehicle" },
-  { id: "US20200032560A1", title: "Selectively concealed door handle" },
+  { id: "US10933994B2", title: "System and methods for delivering a package from a drone to a vehicle", href: "https://patents.google.com/patent/US10933994B2" },
+  { id: "DE102019110429A1", title: "Control of airbag activation status on a motor vehicle", href: "https://patents.google.com/patent/DE102019110429A1" },
+  { id: "US20200032560A1", title: "Selectively concealed door handle", href: "https://patents.google.com/patent/US20200032560A1" },
 ];
 
 const affiliations = [
@@ -197,10 +199,8 @@ export default function Resume() {
       {/* Header */}
       <div className="resume-header" style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: "40px", gap: "16px" }}>
         <p style={{ fontSize: "22px", color: "#1a1a1a" }}>Jorge Suárez-Rivaya</p>
-        <p style={{ fontSize: "13px", color: "#aaa", whiteSpace: "nowrap" }}>
+        <p style={{ fontSize: "13px", color: "#aaa" }}>
           <a href="https://www.linkedin.com/in/jsrivaya/" target="_blank" rel="noopener noreferrer" className="entry-link" style={{ color: "#aaa" }}>linkedin.com/in/jsrivaya</a>
-          <span style={{ margin: "0 8px", color: "#ddd" }}>|</span>
-          <a href="https://jsrivaya.github.io/" target="_blank" rel="noopener noreferrer" className="entry-link" style={{ color: "#aaa" }}>jsrivaya.github.io</a>
         </p>
       </div>
 
@@ -241,17 +241,18 @@ export default function Resume() {
                 borderBottom: i < experience.length - 1 ? "1px solid #f0f0f0" : "none",
               }}
             >
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "16px", flexWrap: "wrap", marginBottom: "10px" }}>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", flexWrap: "wrap", gap: "2px 16px", marginBottom: "10px" }}>
                 <span style={{ fontSize: "14px", color: "#1a1a1a" }}>
                   {job.role}, <span style={{ color: "#aaa" }}>{job.company}, {job.location}</span>
                 </span>
-                <span style={{ fontSize: "12px", color: "#bbb", whiteSpace: "nowrap" }}>{job.period}</span>
+                <span style={{ fontSize: "14px", whiteSpace: "nowrap" }}>
+                  <span style={{ color: "#ddd" }}>| </span><span style={{ color: "#bbb" }}>{job.period}</span>
+                </span>
               </div>
               <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "6px" }}>
                 {job.bullets.map((b) => (
-                  <li key={b} style={{ fontSize: "14px", color: "#555", paddingLeft: "12px", lineHeight: 1.65, display: "flex", gap: "8px" }}>
-                    <span style={{ color: "#ccc", flexShrink: 0 }}>–</span>
-                    <span>{b}</span>
+                  <li key={b} style={{ fontSize: "14px", color: "#555", lineHeight: 1.65 }}>
+                    {b}
                   </li>
                 ))}
               </ul>
@@ -305,11 +306,14 @@ export default function Resume() {
         <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
           {continuingEducation.map((e) => (
             <div key={e.institution}>
-              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "16px", flexWrap: "wrap", marginBottom: "4px" }}>
-                <span style={{ fontSize: "15px", color: "#1a1a1a" }}>{e.institution}</span>
-                <span style={{ fontSize: "12px", color: "#bbb" }}>{e.period}</span>
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", flexWrap: "wrap", gap: "2px 16px", marginBottom: "6px" }}>
+                <span style={{ fontSize: "14px", color: "#1a1a1a" }}>
+                  {e.institution}, <span style={{ color: "#aaa" }}>{e.location}</span>
+                </span>
+                <span style={{ fontSize: "14px", whiteSpace: "nowrap" }}>
+                  <span style={{ color: "#ddd" }}>| </span><span style={{ color: "#bbb" }}>{e.period}</span>
+                </span>
               </div>
-              <p style={{ fontSize: "13px", color: "#aaa", marginBottom: "6px" }}>{e.location}</p>
               <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", flexDirection: "column", gap: "4px" }}>
                 {e.items.map((d) => (
                   <li key={d} style={{ fontSize: "14px", color: "#555" }}>{d}</li>
@@ -324,10 +328,13 @@ export default function Resume() {
       <div style={section}>
         <p style={label}>Certifications</p>
         <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-          {certifications.map(({ name, issuer, date }) => (
+          {certifications.map(({ name, issuer, date, href }) => (
             <div key={name} style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: "16px", flexWrap: "wrap" }}>
               <span style={{ fontSize: "14px", color: "#555" }}>
-                {name} <span style={{ color: "#aaa" }}>— {issuer}</span>
+                {href ? (
+                  <a href={href} target="_blank" rel="noopener noreferrer" className="entry-link" style={{ color: "#555" }}>{name}</a>
+                ) : name}{" "}
+                <span style={{ color: "#aaa" }}>— {issuer}</span>
               </span>
               <span style={{ fontSize: "12px", color: "#bbb", whiteSpace: "nowrap" }}>{date}</span>
             </div>
@@ -339,9 +346,9 @@ export default function Resume() {
       <div style={section}>
         <p style={label}>Patents</p>
         <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-          {patents.map(({ id, title }) => (
+          {patents.map(({ id, title, href }) => (
             <div key={id} style={{ display: "flex", gap: "12px" }}>
-              <span style={{ fontSize: "12px", color: "#bbb", whiteSpace: "nowrap", paddingTop: "2px", flexShrink: 0 }}>{id}</span>
+              <a href={href} target="_blank" rel="noopener noreferrer" className="entry-link" style={{ fontSize: "12px", color: "#bbb", whiteSpace: "nowrap", paddingTop: "2px", flexShrink: 0 }}>{id}</a>
               <span style={{ fontSize: "14px", color: "#555" }}>{title}</span>
             </div>
           ))}

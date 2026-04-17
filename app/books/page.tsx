@@ -4,6 +4,11 @@ const currentlyReading = [
     author: "Gene Kim",
     href: "https://www.goodreads.com/book/show/228438060-vibe-coding",
   },
+  {
+    title: "Poor Charlie's Almanack",
+    author: "Charles T. Munger",
+    href: "https://www.goodreads.com/book/show/245544703-poor-charlie-s-almanack",
+  },
 ];
 
 const groups = [
