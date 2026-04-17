@@ -10,7 +10,7 @@ const projects: {
     description:
       "A lightweight, header-only C++ library designed for low memory footprint, low latency, and maximum performance. Provides optimized data structures that outperform standard STL counterparts while maintaining familiar interfaces. Built for HFT, gaming, embedded systems, and real-time processing.",
     year: "2026",
-    url: "https://github.com/jsrivaya/loon",
+    url: "https://www.loonlib.dev",
     tags: ["C++", "header-only", "performance", "HFT", "embedded"],
   },
 ];
