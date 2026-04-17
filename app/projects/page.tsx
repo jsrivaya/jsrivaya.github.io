@@ -18,7 +18,7 @@ const projects: {
     description:
       "Unix shell built from scratch in C/C++ — parsing, builtins, piping, redirection, and quoting. CodeCrafters challenge.",
     year: "2025",
-    url: "https://app.codecrafters.io/users/jsrivaya",
+    url: "https://app.codecrafters.io/courses/shell/overview",
     tags: ["C/C++", "systems", "CodeCrafters"],
   },
   {
@@ -26,7 +26,7 @@ const projects: {
     description:
       "Redis-compatible server built in C/C++ — RESP protocol, event loop, persistence, and replication. CodeCrafters challenge.",
     year: "2025",
-    url: "https://app.codecrafters.io/users/jsrivaya",
+    url: "https://app.codecrafters.io/courses/redis/overview",
     tags: ["C/C++", "networking", "CodeCrafters"],
   },
   {
@@ -34,7 +34,7 @@ const projects: {
     description:
       "Reimplementing Claude Code from the ground up — agent loop, tool use, and terminal UX. CodeCrafters challenge.",
     year: "2026",
-    url: "https://app.codecrafters.io/users/jsrivaya",
+    url: "https://app.codecrafters.io/courses/claude-code/overview",
     tags: ["agents", "LLM", "CodeCrafters"],
   },
 ];
