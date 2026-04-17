@@ -10,8 +10,32 @@ const projects: {
     description:
       "A lightweight, header-only C++ library designed for low memory footprint, low latency, and maximum performance. Provides optimized data structures that outperform standard STL counterparts while maintaining familiar interfaces. Built for HFT, gaming, embedded systems, and real-time processing.",
     year: "2026",
-    url: "https://github.com/jsrivaya/loon",
+    url: "https://www.loonlib.dev",
     tags: ["C++", "header-only", "performance", "HFT", "embedded"],
+  },
+  {
+    title: "Build Your Own Shell",
+    description:
+      "Unix shell built from scratch in C/C++ — parsing, builtins, piping, redirection, and quoting. CodeCrafters challenge.",
+    year: "2025",
+    url: "https://app.codecrafters.io/users/jsrivaya",
+    tags: ["C/C++", "systems", "CodeCrafters"],
+  },
+  {
+    title: "Build Your Own Redis",
+    description:
+      "Redis-compatible server built in C/C++ — RESP protocol, event loop, persistence, and replication. CodeCrafters challenge.",
+    year: "2025",
+    url: "https://app.codecrafters.io/users/jsrivaya",
+    tags: ["C/C++", "networking", "CodeCrafters"],
+  },
+  {
+    title: "Build Your Own Claude Code",
+    description:
+      "Reimplementing Claude Code from the ground up — agent loop, tool use, and terminal UX. CodeCrafters challenge.",
+    year: "2026",
+    url: "https://app.codecrafters.io/users/jsrivaya",
+    tags: ["agents", "LLM", "CodeCrafters"],
   },
 ];
 
