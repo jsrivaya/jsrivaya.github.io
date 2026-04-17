@@ -14,6 +14,14 @@ const projects: {
     tags: ["C++", "header-only", "performance", "HFT", "embedded"],
   },
   {
+    title: "Build Your Own Claude Code",
+    description:
+      "Reimplementing Claude Code from the ground up — agent loop, tool use, and terminal UX. CodeCrafters challenge.",
+    year: "2026",
+    url: "https://app.codecrafters.io/courses/claude-code/overview",
+    tags: ["agents", "LLM", "CodeCrafters"],
+  },
+  {
     title: "Build Your Own Shell",
     description:
       "Unix shell built from scratch in C/C++ — parsing, builtins, piping, redirection, and quoting. CodeCrafters challenge.",
@@ -28,14 +36,6 @@ const projects: {
     year: "2025",
     url: "https://app.codecrafters.io/courses/redis/overview",
     tags: ["C/C++", "networking", "CodeCrafters"],
-  },
-  {
-    title: "Build Your Own Claude Code",
-    description:
-      "Reimplementing Claude Code from the ground up — agent loop, tool use, and terminal UX. CodeCrafters challenge.",
-    year: "2026",
-    url: "https://app.codecrafters.io/courses/claude-code/overview",
-    tags: ["agents", "LLM", "CodeCrafters"],
   },
 ];
 
