@@ -13,6 +13,27 @@ const projects: {
     url: "https://www.loonlib.dev",
     tags: ["C++", "header-only", "performance", "HFT", "embedded"],
   },
+  {
+    title: "Build Your Own Shell",
+    description:
+      "Unix shell built from scratch in C/C++ — parsing, builtins, piping, redirection, and quoting. CodeCrafters challenge.",
+    year: "2025",
+    tags: ["C/C++", "systems", "CodeCrafters"],
+  },
+  {
+    title: "Build Your Own Redis",
+    description:
+      "Redis-compatible server built in C/C++ — RESP protocol, event loop, persistence, and replication. CodeCrafters challenge.",
+    year: "2025",
+    tags: ["C/C++", "networking", "CodeCrafters"],
+  },
+  {
+    title: "Build Your Own Claude Code",
+    description:
+      "Reimplementing Claude Code from the ground up — agent loop, tool use, and terminal UX. CodeCrafters challenge.",
+    year: "2026",
+    tags: ["agents", "LLM", "CodeCrafters"],
+  },
 ];
 
 export default function Projects() {
