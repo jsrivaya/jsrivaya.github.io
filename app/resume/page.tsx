@@ -1,9 +1,17 @@
 const experience = [
   {
+    role: "Founder",
+    company: "AlpineOps",
+    location: "CA",
+    period: "2026 – Present",
+    bullets: [],
+    href: "https://www.linkedin.com/company/alpineops",
+  },
+  {
     role: "Staff Software Engineer",
     company: "Ford Motor Company",
     location: "Palo Alto, CA",
-    period: "Mar 2022 – Present",
+    period: "Mar 2022 – 2025",
     bullets: [
       "Co-led development of FordKit SDK alongside a Principal — a COVESA-based vehicle services abstraction SDK built with C/C++, Python, gRPC, and SOME/IP, delivered by a 7-person team via GitHub CI/CD and automation.",
     ],
@@ -243,7 +251,14 @@ export default function Resume() {
             >
               <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", flexWrap: "wrap", gap: "2px 16px", marginBottom: "10px" }}>
                 <span style={{ fontSize: "14px", color: "#1a1a1a" }}>
-                  {job.role}, <span style={{ color: "#aaa" }}>{job.company}, {job.location}</span>
+                  {job.role},{" "}
+                  <span style={{ color: "#aaa" }}>
+                    {job.href ? (
+                      <a href={job.href} target="_blank" rel="noopener noreferrer" className="entry-link" style={{ color: "#aaa" }}>{job.company}</a>
+                    ) : (
+                      job.company
+                    )}, {job.location}
+                  </span>
                 </span>
                 <span style={{ fontSize: "14px", whiteSpace: "nowrap" }}>
                   <span style={{ color: "#ddd" }}>| </span><span style={{ color: "#bbb" }}>{job.period}</span>
