@@ -4,8 +4,10 @@ const experience = [
     company: "AlpineOps",
     location: "CA",
     period: "2026 – Present",
-    bullets: [],
-    href: "https://www.linkedin.com/company/alpineops",
+    bullets: [
+      "AlpineOps is offline-first incident reporting built for ski patrol. When a patroller is on a head-injury call in a whiteout with no signal and cold fingers, the last thing they should be fighting is their software. AlpineOps was built around that reality, not in spite of it.",
+    ],
+    href: "http://alpineops.app",
   },
   {
     role: "Staff Software Engineer",
